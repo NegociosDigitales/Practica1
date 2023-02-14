@@ -2,7 +2,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 
-import 'zone.ts';
+import 'zone.js';
 
 
 platformBrowserDynamic().bootstrapModule(AppModule)
