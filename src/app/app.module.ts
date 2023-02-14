@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './pages/header/header.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import {MenubarModule} from 'primeng/menubar';
+import {TreeModule} from 'primeng/tree';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import {MenubarModule} from 'primeng/menubar';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MenubarModule
+    MenubarModule,
+    TreeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
